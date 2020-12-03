@@ -1,0 +1,27 @@
+{
+    "name": "omersolmaz45/zoomer",
+    "description": "Zoomer",
+    "homepage": "https://github.com/omersolmaz45/zoomer",
+    "keywords": [
+        "zoom",
+        "jwt"
+    ],
+    "authors": [
+        {
+            "name": "omer",
+            "email": "info@coinsystem.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoom\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 <=9"
+    }
+}
